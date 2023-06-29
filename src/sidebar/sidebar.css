@@ -1,0 +1,8 @@
+.active {
+  color: white;
+  background-color: var(--theme-color);
+}
+
+.active:hover {
+  color: var(--secondary-color);
+}
