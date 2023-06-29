@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --theme-color: #00abe4;
+  --secondary-color: #1e375a;
+  --para-color: #81868a;
+  --dash-text-color: #526484;
+  --dash-heading: #364a63;
+}
+
+@media (max-width: 639px) {
+  .hero-container {
+    height: 56vh;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  .hero-container {
+    height: 56vh;
+    /* background-color: aqua; */
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-container {
+    height: 70vh;
+  }
+}
